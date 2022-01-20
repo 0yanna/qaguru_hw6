@@ -37,6 +37,7 @@ public class StepTest {
     @Step("Проверяем наличие Issues с неверным номером {number}")
     public void checkEmpty(String text) {
         $("#container-md").shouldHave(Condition.text(text));
+
     }
 
     @Test

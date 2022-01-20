@@ -25,5 +25,6 @@ public class ListenerTest {
         $(linkText("eroshenkoam/allure-example")).click();
         $(partialLinkText("Issues")).click();
         $(withText("#76")).should(Condition.visible);
+
     }
 }

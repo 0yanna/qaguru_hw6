@@ -31,6 +31,7 @@ public class LambdaTest {
         step("Открыть Issues и проверить наличие 76", ()-> {
             $(partialLinkText("Issues")).click();
             $(withText("#76")).should(visible);
+
         });
     }
 }
